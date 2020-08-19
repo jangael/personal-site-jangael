@@ -1,0 +1,165 @@
+/* CSS style */
+* {
+  margin-left: 20px;
+  margin-right: 20px; 
+  }
+
+/*FLEXBOX*/
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-par {
+  flex-shrink: 10;
+  max-width:100%;
+}
+  
+/*BODY*/
+
+body {
+  background-color: #cce6ff;
+  text-color: #5291cc;
+}
+
+hr {
+  border: 2px dotted white;
+}
+
+/* Headings */
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: Bold;
+  color: #4c95d9;
+  letter-spacing: 5px;
+  font-size: 300%;
+  text-align: center;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'PT Serif', serif;
+  color: #8abae6;
+  letter-spacing: 3px;
+  font-size: 150%;
+  text-align: center;
+  line-height: 1;
+}
+
+h3 {
+  font-family: 'Playful Display', serif;
+  font-style: Italic;
+  color: #4c95d9;
+  text-align: center;
+  line-height: 0.02;
+}
+
+h4 {
+  font-family: 'Crimson Text', serif;
+  font-style: Bold;
+  color: #373fff;
+  text-align: center;
+  line-height: 0.01;
+}
+
+/* paragraph content*/
+
+p {
+  font-family: 'Georgia', serif;
+  color: #5291cc;
+}
+
+.p.port {
+  text-align: right;
+  color: #5291cc;
+}
+
+ul {
+  list-style-type: none;
+  background-color: white;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+/* LINKS */
+
+a {
+  margin:0;
+}
+
+/* unvisited link */
+
+a:link {
+  color: #4c95d9;
+}
+
+/* visited link */
+a:visited {
+  color: #4c95d7;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+/* Images */
+
+.home-img {
+  width: 20%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+#home-img1 {
+  float: left;
+}
+
+#home-img2 {
+  float: right;
+}
+
+.port-img {
+  width: 30%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+  float: left;
+}
+
+
+img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 6px;
+  margin-left: 6px;
+  border: 5px solid white;
+  height: auto;
+}
+
+.ic-img {
+  display: block;
+  border: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
